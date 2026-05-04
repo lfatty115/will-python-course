@@ -1,0 +1,53 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# -------------------------
+# Jupyter Notebooks
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+*.code-workspace
+
+# -------------------------
+# Data files (optional)
+# Uncomment if you want to ignore large datasets
+# data/
+# *.csv
+# *.xlsx
+# *.parquet
+
+# -------------------------
+# Logs & temp files
+# -------------------------
+*.log
+*.tmp
+*.temp
+
+# -------------------------
+# OS-specific files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Node / Web (if you ever add apps)
+# -------------------------
+node_modules/
+dist/
+build/
