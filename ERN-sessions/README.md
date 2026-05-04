@@ -106,3 +106,94 @@ ERN-sessions/
 **Lamin**  
 Learning Python step by step and building a clean, organised, and professional coding workflow.
 
+## 🚀 Getting Started
+
+Follow these steps to set up the repository and start working with the notebooks, scripts, and exercises.
+
+---
+
+### **1. Clone the Repository**
+
+If you're working locally:
+
+```bash
+git clone https://github.com/lfatty115/will-python-course.git
+cd will-python-course/ERN-sessions
+```
+
+If you're using GitHub Codespaces (recommended), simply open the repo in a Codespace and everything is ready to go.
+
+---
+
+### **2. Open the Project in VS Code**
+
+If working locally:
+
+```bash
+code .
+```
+
+This opens the entire project in Visual Studio Code.
+
+---
+
+### **3. Create a Virtual Environment (Optional but Recommended)**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows
+```
+
+Install any required packages as you go.
+
+---
+
+### **4. Install Jupyter (If Needed)**
+
+```bash
+pip install notebook jupyterlab
+```
+
+---
+
+### **5. Run Jupyter Notebooks**
+
+From inside the `ERN-sessions` folder:
+
+```bash
+jupyter notebook
+```
+
+or
+
+```bash
+jupyter lab
+```
+
+Open any notebook from the `notebooks/` folder to begin learning.
+
+---
+
+### **6. Navigating the Repository**
+
+- `beginners/` → Start here if you're new to Python  
+- `intermediate/` → Continue building skills  
+- `notebooks/` → Hands-on exercises and experiments  
+- `sql/` → SQL practice queries  
+- `apps/` → Small Python applications  
+- `data/` → Datasets used in exercises  
+
+---
+
+### **7. Keeping Your Work Synced**
+
+Use the standard Git workflow:
+
+```bash
+git add .
+git commit -m "Your message here"
+git push
+```
+
+This keeps your progress backed up and organised.
