@@ -51,3 +51,5 @@ Thumbs.db
 node_modules/
 dist/
 build/
+
+ERN-sessions/eda-uk-house-prices/data/raw/
